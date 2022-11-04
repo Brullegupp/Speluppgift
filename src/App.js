@@ -9,8 +9,9 @@ function App() {
       <h1>Escape The Woods</h1>
       <Login />
       <Register />
+
     </div>
-  );
+  )
 }
 
 export default App;
