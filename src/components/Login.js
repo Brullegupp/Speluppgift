@@ -20,7 +20,7 @@ const Login = () => {
                     <input type="submit" value="Login"></input>
             
             </form >
-            <button className="register1" onClick="click">Register</button>
+            <button className="register-btn1" onClick="click">Register</button>
         </div>
     )
 
