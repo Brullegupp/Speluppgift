@@ -1,3 +1,4 @@
+startsidan
 import Login from "./components/Login.js";
 import Register from "./components/Register.js";
 
@@ -8,9 +9,5 @@ function App() {
     <div>
       <Login />
       <Register />
-    </div>
-    </>
-  );
-}
-
+      
 export default App;
