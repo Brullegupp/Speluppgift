@@ -1,63 +1,103 @@
- 
- 
+ .titel {
+   color: white;
+   font-family: Goudy Old Style;
+   font-size: 70px;
+ }
+
  .loginh2 {
    font-size: 20px;
-   font-family: "Consolas" ;
+   font-family: "Consolas";
    color: white;
  }
-body {
-  background-image: url(https://image.shutterstock.com/image-vector/vector-illustration-dark-ghostly-forest-260nw-213703342.jpg);
-  background-size: 100%, 100%, 100%;
-}
+
+ body,
+ html {
+   background-image: url(https://image.shutterstock.com/image-vector/vector-illustration-dark-ghostly-forest-260nw-213703342.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+
+ }
+
  .divlogin {
    position: absolute;
-   height: 500px;
+   height: 600px;
    width: 944px;
    margin: auto;
-   top: 0; right: 0; bottom: 0; left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    background-color: #5C5566;
    border-radius: 10px;
-  }
+ }
 
  .form {
-   padding-top: 50px;
-   padding-right: 30px;
-   padding-bottom: 50px;
-   padding-left: 80px;
+   padding-top: 30px;
+   padding-right: 50px;
+   padding-bottom: 30px;
+   padding-left: 50px;
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
    text-align: center;
    flex-direction: column;
    border-radius: 10px;
    background-color: #76878B;
  }
+
  label {
-  color: white;
-  font-family: Verdana;
- }
- input[type=text ] {
-  font-size: 20px;
-  background-color: #D9D9D9;
-  width: 200px;
- }
- input[type=password ] {
-  font-size: 20px;
-  background-color: #D9D9D9;
-  width: 200px;
+   color: white;
+   font-family: Verdana;
  }
 
- input[type=submit ] {
-  color: white;
-  background-color: #332932;
-  font-family: "Consolas";
-  padding: 5px 15px;
-  border-radius: 10px;
-  margin-top: 10px;
-  border: none;
+ input[type=text] {
+   font-size: 20px;
+   background-color: #D9D9D9;
+   width: 200px;
  }
- 
-  
+
+ input[type=password] {
+   font-size: 20px;
+   background-color: #D9D9D9;
+   width: 200px;
+ }
+
+ input[type=submit] {
+   color: white;
+   background-color: #332932;
+   font-family: "Consolas";
+   padding: 5px 15px;
+   border-radius: 10px;
+   margin-top: 10px;
+   border: none;
+ }
+
+ .register-btn1 {
+   color: white;
+   background-color: #8CB3BC;
+   font-family: "Consolas";
+   font-size: 20px;
+   border: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 10px;
+   margin-top: 20px;
+ }
+
+ .exit-btn1 {
+   color: white;
+   background-color: #332932;
+   font-family: "Consolas";
+   padding: 5px 15px;
+   border-radius: 10px;
+   border: none;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+ }
