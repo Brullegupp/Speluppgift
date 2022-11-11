@@ -8,7 +8,7 @@ const Menu = () => {
         <div>
             
     
-            <button className="play-btn" onClick={() => {navigate("/")}}>Play</button><br></br>
+            <button className="play-btn" onClick={() => {navigate("/Story")}}>Play</button><br></br>
 
             <button className="logout-btn" onClick={() => {navigate("/")}}>Log out</button>
         </div>
