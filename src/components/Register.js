@@ -38,7 +38,7 @@ const Register = () => {
         // tex att man ska fylla i alla fält eller om en user redan är registrerad.
 
         axios
-        .post("http://localhost:3000/users", user).then(alert("User created"))//Fixa någon slags redirect
+        .post("http://localhost:6001/users", user).then(alert("User created"))//Fixa någon slags redirect
 
         setUser({
             email: "",
