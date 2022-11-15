@@ -14,7 +14,7 @@ const Login = () => {
     const checkUsername = (users) => {
         const user = users.find((user) => user.username === username)
         if(user.username === username) return user
-        // && user.password
+        // lägga till password check med && user.password
     }
 
     const handleSubmit = async (e) => {
@@ -33,7 +33,8 @@ const Login = () => {
             console.log(user.username)
 
             if (user.username === username) {
-                alert("Success!")//redirect till en annan sida?
+                //alert("Success!")
+                //navigate ("/Menu")
 
 
         // om login success ska vi spara user i localstorage
