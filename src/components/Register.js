@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import axios from "axios"
 
 const Register = () => {
@@ -10,17 +10,7 @@ const Register = () => {
         password: ""
     })
 
-    /*const fetchRegistration = async () => {
-        const response = await fetch("http://localhost:6001/user")
-        const data = await response.json()
-
-        setUser(data)
-    }
-
-    useEffect(() => {
-        fetchRegistration()
-    }, [])
-*/
+    
 
     const handleChange = (e) => {
         const name = e.target.name
