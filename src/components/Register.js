@@ -1,8 +1,10 @@
 import { useState } from "react"
+import { useNavigate} from "react-router-dom"
 import axios from "axios"
 
 const Register = () => {
 
+    const navigate = useNavigate()
     
     const [user, setUser] = useState ({
         email: "",
@@ -29,6 +31,8 @@ const Register = () => {
 
         axios
         .post("http://localhost:6001/users", user).then(alert("User created"))//Fixa någon slags redirect
+
+        navigate("/")
 
         setUser({
             email: "",

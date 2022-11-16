@@ -24,7 +24,7 @@ const Login = () => {
         // vi behöver skriva en funktion för att göra en check
 
 
-        const user = axios.get("http://localhost:6001/users")
+        const user = await axios.get("http://localhost:6001/users")
             .then((res) => checkUsername(res.data, username))
             .catch((error) => {
                 alert("error")
@@ -33,13 +33,13 @@ const Login = () => {
             console.log(user.username)
 
             if (user.username === username) {
-                //alert("Success!")
-                //navigate ("/Menu")
+                navigate ("/menu")
 
 
-        // om login success ska vi spara user i localstorage
+        
         localStorage.setItem("user", JSON.stringify(user.id))
             }
+            setUsername("")
 
     }
 
