@@ -6,6 +6,10 @@ import Story from "./components/Story.js";
 import Choice1 from "./components/Choices/Choice1.js";
 import Death1 from "./components/Deaths/Death1.js";
 import Reuseablebutton from "./components/reuseablebutton.js";
+import Death2 from "./components/Deaths/Death2.js";
+import Death3 from "./components/Deaths/Death3.js";
+import Choice2 from "./components/Choices/Choice2.js";
+import Choice3 from "./components/Choices/Choice3.js";
 
 function App() {
   return (
