@@ -44,8 +44,10 @@ const Register = () => {
 
     return (
         <div>
+            <h1>Escape the woods</h1>
             <form className="form">
                 <h2>Register</h2>
+
 
                 <label className="form-control">
                     Email:
@@ -70,6 +72,7 @@ const Register = () => {
 
             </form >
             <button className="register-btn2" type="submit" onClick={handleSubmit}>Register</button></div>
+
     )
 }
 

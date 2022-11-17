@@ -1,6 +1,9 @@
+
+
 import { useNavigate} from "react-router-dom"
 import { useState } from "react"
 import axios from "axios"
+
 
 const Login = () => {
     const [username, setUsername] = useState("")
@@ -45,8 +48,10 @@ const Login = () => {
 
     return (
         <div>
+            <h1>Escape the woods</h1>
             <form className="form">
                 <h2>Login</h2>
+
                     
                     <label className="form-control">
                         Username:
@@ -64,6 +69,7 @@ const Login = () => {
             </form>
             <button className="login-btn" type="submit" onClick={handleSubmit}>Login</button><br></br>
             <button className="register-btn1" onClick={() => {navigate("/Register")}}>Register</button>
+
         </div>
     )
 
