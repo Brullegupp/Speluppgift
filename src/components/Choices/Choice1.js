@@ -7,6 +7,7 @@ const Choice1 = () => {
         <div className="choice-btn">
             <button className="choice-btn" onClick={() => { navigate("/choice2") }}>Arrow</button>
             <button className="choice-btn" onClick={() => { navigate("/Death1") }}>Arrow</button>
+            <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
         </div>
     )
 }

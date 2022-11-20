@@ -1,24 +1,22 @@
 import { useState } from "react"
-import { useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import axios from "axios"
 
 const Register = () => {
 
     const navigate = useNavigate()
-    
-    const [user, setUser] = useState ({
+
+    const [user, setUser] = useState({
         email: "",
         username: "",
         password: ""
     })
 
-    
-
     const handleChange = (e) => {
         const name = e.target.name
         const value = e.target.value
 
-        setUser({...user, [name]: value})
+        setUser({ ...user, [name]: value })
         console.log(user.username)
     }
 
@@ -30,7 +28,7 @@ const Register = () => {
         // tex att man ska fylla i alla fält eller om en user redan är registrerad.
 
         axios
-        .post("http://localhost:6001/users", user).then(alert("User created"))//Fixa någon slags redirect
+            .post("http://localhost:6001/users", user).then(alert("User created"))//Fixa någon slags redirect
 
         navigate("/")
 
@@ -43,8 +41,8 @@ const Register = () => {
     }
 
     return (
-        <div>
-            <h1>Escape the woods</h1>
+        <div className="menu-card">
+            <h1 className="titel-name">Escape the woods</h1>
             <form className="form">
                 <h2>Register</h2>
 
@@ -53,14 +51,14 @@ const Register = () => {
                     Email:
                     <input type="email" id="email" name="email" value={user.email} onChange={handleChange}></input>
 
-                </label><br></br>
+                </label>
 
 
                 <label className="form-control">
                     Username:
                     <input type="text" id="username" name="username" value={user.username} onChange={handleChange}></input>
 
-                </label><br></br>
+                </label>
 
 
                 <label className="form-control">
@@ -68,10 +66,12 @@ const Register = () => {
                     <input type="password" id="password" name="password" value={user.password} onChange={handleChange}></input>
                 </label>
 
+                <button className="register-btn1" type="submit" onClick={handleSubmit}>Register</button>
 
 
             </form >
-            <button className="register-btn2" type="submit" onClick={handleSubmit}>Register</button></div>
+            <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
+        </div>
 
     )
 }

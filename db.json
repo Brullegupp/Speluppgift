@@ -53,6 +53,12 @@
       "username": "",
       "password": "",
       "id": 9
+    },
+    {
+      "email": "isakthorstrom@yahoo.se",
+      "username": "isse",
+      "password": "123",
+      "id": 10
     }
   ]
 }
