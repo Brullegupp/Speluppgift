@@ -41,6 +41,7 @@ const Register = () => {
     }
 
     return (
+        <div className="overlay">
         <div className="menu-card">
             <h1 className="titel-name">Escape the woods</h1>
             <form className="form">
@@ -71,6 +72,7 @@ const Register = () => {
 
             </form >
             <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
+        </div>
         </div>
 
     )
