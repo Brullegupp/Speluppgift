@@ -47,9 +47,10 @@ const Login = () => {
     }
 
     return (
-        <div>
-            <h1>Escape the woods</h1>
-            <form className="form">
+        <div className="overlay">
+        <div className="menu-card">
+            <h1 className="titel-name">Escape the woods</h1>
+            <form className="form1">
                 <h2>Login</h2>
 
                     
@@ -57,19 +58,20 @@ const Login = () => {
                         Username:
                         <input type="text" id="username" value={username} onChange={handleChange}></input>
                      
-                    </label><br></br>
+                    </label>
                     
                     <label className="form-control">
                         Password:
                         <input type="password" id="password"></input>
                     </label>
-                    
-                   
-            
+                    <button className="login-btn" type="submit" onClick={handleSubmit}>Login</button>
             </form>
-            <button className="login-btn" type="submit" onClick={handleSubmit}>Login</button><br></br>
-            <button className="register-btn1" onClick={() => {navigate("/Register")}}>Register</button>
+            <button className="register-btn2" onClick={() => {navigate("/Register")}}>Register</button>
 
+            <button onClick={() => {navigate("/menu")}}>Register</button>
+            <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
+
+        </div>
         </div>
     )
 
