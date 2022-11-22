@@ -9,9 +9,10 @@ import Death2 from "./components/Deaths/Death2.js";
 import Death3 from "./components/Deaths/Death3.js";
 import Choice2 from "./components/Choices/Choice2.js";
 import Choice3 from "./components/Choices/Choice3.js";
+import Choice4 from "./components/Choices/Choice4.js";
 import PrivateRoute from "./components/PrivateRoute.js";
 import User from "./components/User.js";
-
+import Goal from  "./components/goal.js";
 
 
 
@@ -31,6 +32,8 @@ function App() {
           <Route path="/Death2" exact element={<Death2 />} />
           <Route path="/Choice3" exact element={<Choice3 />} />
           <Route path="/Death3" exact element={<Death3 />} />
+          <Route path="/Choice4" exact element={<Choice4 />} />
+          <Route path="/Goal" exact element={<Goal />} />
           
 
 
