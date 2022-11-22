@@ -197,7 +197,7 @@ input[type=password] {
   border-radius: 20px;
 }
 .story-page {
-  background-image: url(C:\Users\isakt\gruppuppgiftspel\src\Data\scary-background.jpg);
+  background-image: url(../src/Data/scary-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -217,3 +217,4 @@ input[type=password] {
   border: none;
   margin: 0;
 }
+

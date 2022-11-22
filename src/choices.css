@@ -1,0 +1,121 @@
+
+
+.overlay1 {
+    background-image: url(../src/Data/istockphoto-1043674456-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+/*.choice-btn {
+    
+    border: none;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+*/
+.choice-btn1:hover .choice-btn2:hover .choice-btn3:hover .choice-btn4:hover .choice-btn5:hover .choice-btn6:hover {
+    opacity: 1;
+}
+
+.choice-btn p {
+    font-family: "Consolas";  
+    font-size: 20px; 
+
+}
+
+.choice-btn1 {
+    position: absolute;
+    bottom: 200px;
+    left: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.choice-btn1:hover {
+    opacity: 1;
+}
+
+.choice-btn2 {
+    position: absolute;
+    bottom: 200px;
+    right: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.choice-btn2:hover {
+    opacity: 1;
+}
+
+.choice-btn3 {
+    position: absolute;
+    bottom: 200px;
+    left: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.choice-btn3:hover {
+    opacity: 1;
+}
+.choice-btn4 {
+    position: absolute;
+    bottom: 200px;
+    right: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.choice-btn4:hover {
+    opacity: 1;
+}
+.choice-btn5 {
+    position: absolute;
+    bottom: 200px;
+    left: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    
+
+}
+.choice-btn5:hover {
+    opacity: 1;
+}
+.choice-btn6 {
+    position: absolute;
+    bottom: 200px;
+    right: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.choice-btn6:hover {
+    opacity: 1;
+}
