@@ -1,0 +1,44 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.choice1{
+background-image: url(../src/Data/istockphoto-1043674456-170667a.png);
+background-repeat: no-repeat;
+height: 100vh;
+background-size: 100% 100%;
+
+}
+.choice2{
+    background-image: url(../src/Data/dead-cliff-road-dead-mysterious-forest-with-three-crows-night-scary-halloween-concept_634053-1690.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+    }
+    .choice3{
+        background-image: url(../src/Data/ZeLmmv6.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: 100% 100%;
+        
+        }
+        .choice4{
+            background-image: url(../src/Data/hero-image.png);
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: 100% 100%;
+            
+            }
+
+        .Goal-background{
+            background-image: url(../src/Data/360_F_86970996_f1tsT2OpheAWVbRukm1A9bcihVy5lGZG.jpg);
+            position: absolute;
+            width:100%;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: 100% 100%;
+    
+        }
+

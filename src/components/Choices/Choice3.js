@@ -4,11 +4,13 @@ const Choice3 = () => {
 
     const navigate = useNavigate()
     return (
+        <div className="choice3">
         <div className="choice-btn">
-            <button className="choice-btn" onClick={() => { navigate("/Goal") }}>Arrow</button>
-            <button className="choice-btn" onClick={() => { navigate("/death3") }}>Arrow</button>
+            <button className="choice-btn" onClick={() => { navigate("/choice4") }}>Arrow</button>
+            <button className="choice-btn" onClick={() => { navigate("/Death1") }}>Arrow</button>
             <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
-        </div>
+            </div>
+            </div>
     )
 }
 export default Choice3;
