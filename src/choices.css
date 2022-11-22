@@ -1,29 +1,18 @@
-
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
 .overlay1 {
-    background-image: url(../src/Data/istockphoto-1043674456-170667a.jpg);
+    background-image: url(../src/Data/istockphoto-1043674456-170667a.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
+    height: 100vh;
+    background-size: 100% 100%;
     
 }
 
 
-/*.choice-btn {
-    
-    border: none;
-    color: white;
-    opacity: 0.6;
-    transition: 0.3s;
-}
-*/
-.choice-btn1:hover .choice-btn2:hover .choice-btn3:hover .choice-btn4:hover .choice-btn5:hover .choice-btn6:hover {
-    opacity: 1;
-}
+
 
 .choice-btn p {
     font-family: "Consolas";  
@@ -41,9 +30,13 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
 }
 .choice-btn1:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
 }
 
 .choice-btn2 {
@@ -56,9 +49,13 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
 }
 .choice-btn2:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
 }
 
 .choice-btn3 {
@@ -71,9 +68,13 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
 }
 .choice-btn3:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
 }
 .choice-btn4 {
     position: absolute;
@@ -85,9 +86,13 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
 }
 .choice-btn4:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
 }
 .choice-btn5 {
     position: absolute;
@@ -99,11 +104,13 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
-    
-
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114); 
 }
 .choice-btn5:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
 }
 .choice-btn6 {
     position: absolute;
@@ -115,7 +122,65 @@
     border: none;
     opacity: 0.6;
     transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
 }
 .choice-btn6:hover {
     opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
+}
+.choice-btn7 {
+    position: absolute;
+    bottom: 200px;
+    left: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114); 
+}
+.choice-btn7:hover {
+    opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
+}
+.choice-btn8 {
+    position: absolute;
+    bottom: 200px;
+    right: 125px;
+    width: 150px;
+    height: 110px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 36, 114);
+}
+.choice-btn8:hover {
+    opacity: 1;
+    background-color: rgba(167, 0, 0, 0.5);
+    color: white
+}
+
+.text-card {
+    font-family: "Consolas";
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: flex-start;
+    background-color: rgb(18, 14, 14);
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    border-radius: 20px;
 }

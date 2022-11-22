@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import Text from "./components/Choices/Text";
 
 const Choice1 = () => {
 
