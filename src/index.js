@@ -4,6 +4,8 @@ import './index.css';
 import './choices.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './choices.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
