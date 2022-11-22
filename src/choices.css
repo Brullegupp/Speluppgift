@@ -1,22 +1,44 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
 }
 
-.overlay1 {
+.choice1 {
     background-image: url(../src/Data/istockphoto-1043674456-170667a.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: 100% 100%;
-    
+}
+
+.choice2 {
+    background-image: url(../src/Data/dead-cliff-road-dead-mysterious-forest-with-three-crows-night-scary-halloween-concept_634053-1690.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.choice3 {
+    background-image: url(../src/Data/ZeLmmv6.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.choice4 {
+    background-image: url(../src/Data/hero-image.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+
 }
 
 
-
-
 .choice-btn p {
-    font-family: "Consolas";  
-    font-size: 20px; 
+    font-family: "Consolas";
+    font-size: 20px;
 
 }
 
@@ -33,6 +55,7 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn1:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
@@ -52,6 +75,7 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn2:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
@@ -71,11 +95,13 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn3:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
     color: white
 }
+
 .choice-btn4 {
     position: absolute;
     bottom: 200px;
@@ -89,11 +115,13 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn4:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
     color: white
 }
+
 .choice-btn5 {
     position: absolute;
     bottom: 200px;
@@ -105,13 +133,15 @@ body, html {
     opacity: 0.6;
     transition: 0.3s;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 36, 114); 
+    color: rgb(0, 36, 114);
 }
+
 .choice-btn5:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
     color: white
 }
+
 .choice-btn6 {
     position: absolute;
     bottom: 200px;
@@ -125,11 +155,13 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn6:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
     color: white
 }
+
 .choice-btn7 {
     position: absolute;
     bottom: 200px;
@@ -141,13 +173,15 @@ body, html {
     opacity: 0.6;
     transition: 0.3s;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 36, 114); 
+    color: rgb(0, 36, 114);
 }
+
 .choice-btn7:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
     color: white
 }
+
 .choice-btn8 {
     position: absolute;
     bottom: 200px;
@@ -161,6 +195,7 @@ body, html {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 36, 114);
 }
+
 .choice-btn8:hover {
     opacity: 1;
     background-color: rgba(167, 0, 0, 0.5);
@@ -174,9 +209,9 @@ body, html {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     align-content: flex-start;
     background-color: rgba(18, 14, 14, 0.692);
     color: white;
@@ -185,5 +220,15 @@ body, html {
     margin: auto;
     border-radius: 20px;
     opacity: 10;
-    
+
+}
+
+.Goal-background {
+    background-image: url(../src/Data/360_F_86970996_f1tsT2OpheAWVbRukm1A9bcihVy5lGZG.jpg);
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+
 }
