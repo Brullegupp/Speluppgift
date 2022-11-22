@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import Text from "./Text"
 
 const Choice3 = () => {
 
@@ -6,6 +7,7 @@ const Choice3 = () => {
     return (
         <div className="overlay3">
         <div className="choice-btn">
+        <Text />
             <button className="choice-btn5" onClick={() => { navigate("/Goal") }}><p>This way</p></button>
             <button className="choice-btn6" onClick={() => { navigate("/death3") }}><p>This way</p></button>
             <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>

@@ -178,9 +178,12 @@ body, html {
     flex-wrap: wrap;
     justify-content: center; 
     align-content: flex-start;
-    background-color: rgb(18, 14, 14);
+    background-color: rgba(18, 14, 14, 0.692);
+    color: white;
     width: 50%;
     height: 60%;
     margin: auto;
     border-radius: 20px;
+    opacity: 10;
+    
 }
