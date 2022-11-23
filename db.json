@@ -59,6 +59,12 @@
       "username": "isse",
       "password": "123",
       "id": 10
+    },
+    {
+      "email": "hej@gmail.com",
+      "username": "hej",
+      "password": "hej",
+      "id": 11
     }
   ]
 }
