@@ -59,6 +59,12 @@
       "username": "isse",
       "password": "123",
       "id": 10
+    },
+    {
+      "email": "",
+      "username": "",
+      "password": "",
+      "id": 11
     }
   ]
 }
