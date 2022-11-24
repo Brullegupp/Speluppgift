@@ -169,6 +169,8 @@ input[type=password] {
   left: 40%;
 }
 
+
+
 .logout-btn {
   color: white;
   background-color: #497890;
@@ -184,6 +186,40 @@ input[type=password] {
   top: 50%;
   left: 48%;
 }
+@media screen and (max-width: 1164px) {
+  .play-btn{
+    font-size: 50px;
+    top: 45%;
+    left: 30%;
+  }
+  .logout-btn {
+    top: 55%;
+    left: 38%
+  }
+  .titel-name {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .play-btn{
+    font-size: 20px;
+    top: 45%;
+    left: 30%;
+    padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  }
+  .logout-btn {
+    top: 55%;
+    font-size: 15px;
+    padding-left: 20px;
+  padding-right: 20px;
+  }
+}
+
 .story-card {
   font-family: "Consolas";
   font-size: 20px;
@@ -200,6 +236,11 @@ input[type=password] {
   height: 60%;
   margin: auto;
   border-radius: 20px;
+}
+@media screen and (max-width: 750px) {
+  .story-card {
+    font-size: 15px;
+  }
 }
 .story-page {
   background-image: url(../src/Data/scary-background.jpg);
