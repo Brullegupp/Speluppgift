@@ -152,6 +152,11 @@ html {
     transform: translate(-50%, -50%);
   
   }
+  .goal {
+  
+    text-align: center;
+
+}
   .playagain-btn {
     font-family: "Consolas";
     font-size: 20px;
