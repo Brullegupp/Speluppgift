@@ -71,7 +71,7 @@ const Register = () => {
 
 
             </form >
-            <button className="exit-btn1" onClick={() => { navigate("/") }}>Exit</button>
+            <button className="exit-btn1" onClick={() => window.close()}>Exit</button>
         </div>
         </div>
 
