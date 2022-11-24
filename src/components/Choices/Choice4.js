@@ -9,7 +9,7 @@ const Choice4 = () => {
         <div className="choice-btn">
             <Text />
             <button className="choice-btn1" onClick={() => { navigate("/goal") }}>This way</button>
-            <button className="choice-btn2" onClick={() => { navigate("/Death1") }}>This way</button>
+            <button className="choice-btn2" onClick={() => { navigate("/Death4") }}>This way</button>
             <button className="exit-btn1" onClick={() => { navigate("/menu") }}>Exit</button>
             </div>
             </div>
