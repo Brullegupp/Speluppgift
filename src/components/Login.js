@@ -68,7 +68,7 @@ const Login = () => {
             </form>
             <button className="register-btn2" onClick={() => {navigate("/Register")}}>Register</button>
 
-            <button onClick={() => {navigate("/menu")}}>Register</button>
+
             <button className="exit-btn1" onClick={() => window.close()}>Exit</button>
 
         </div>
@@ -77,7 +77,7 @@ const Login = () => {
 
 }
 
-
+//<button onClick={() => {navigate("/menu")}}>Register</button>
 
 
 export default Login;
