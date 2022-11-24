@@ -1,18 +1,22 @@
 
-
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import axios from "axios"
 
 
+
 const Login = () => {
     const [username, setUsername] = useState("")
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
 
     const navigate = useNavigate()
 
     const handleChange = (e) => {
         setUsername(e.target.value)
     }
+
+
+
 
     const checkUsername = (users) => {
         const user = users.find((user) => user.username === username)
@@ -46,6 +50,10 @@ const Login = () => {
 
     }
 
+    const Logout = () => {
+        localStorage.removeItem("user")
+        setIsLoggedIn(false)
+    }
     return (
         <div className="overlay">
             <div className="menu-card">
