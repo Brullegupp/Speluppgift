@@ -6,10 +6,13 @@ import Story from "./components/Story.js";
 import Death1 from "./components/Deaths/Death1.js";
 import Death2 from "./components/Deaths/Death2.js";
 import Death3 from "./components/Deaths/Death3.js";
+import Death4 from "./components/Deaths/Death4.js";
+import Death5 from "./components/Deaths/Death5.js";
 import Choice1 from "./components/Choices/Choice1.js";
 import Choice2 from "./components/Choices/Choice2.js";
 import Choice3 from "./components/Choices/Choice3.js";
 import Choice4 from "./components/Choices/Choice4.js";
+import Choice5 from "./components/Choices/Choice5.js";
 import PrivateRoute from "./components/PrivateRoute.js";
 import User from "./components/User.js";
 import Goal from  "./components/goal.js";
@@ -36,9 +39,10 @@ function App() {
           <Route path="/Death3" exact element={<Death3 />} />
           <Route path="/Choice4" exact element={<Choice4 />} />
           <Route path="/Goal" exact element={<Goal />} />
-          <Route path="/Death4" exact element={<Death3 />} />
+          <Route path="/Death4" exact element={<Death4 />} />
           <Route path="/Choice4" exact element={<Choice4 />} />
-          
+          <Route path="/Death5" exact element={<Death5 />} />
+          <Route path="/Choice5" exact element={<Choice5 />} />
           
           
 

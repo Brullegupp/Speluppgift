@@ -37,6 +37,12 @@ html {
     background-size: 100% 100%;
 
 }
+.choice5 {
+    background-image: url(../src/Data/Ghostroad.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+}
 
 
 .choice-btn p {
