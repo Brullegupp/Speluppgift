@@ -7,7 +7,7 @@ import axios from "axios"
 
 const Login = () => {
     const [username, setUsername] = useState("")
-    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    //const [isLoggedIn, setIsLoggedIn] = useState(false)
 
     const navigate = useNavigate()
 
@@ -50,10 +50,10 @@ const Login = () => {
 
     }
 
-    const Logout = () => {
+   /* const Logout = () => {
         localStorage.removeItem("user")
         setIsLoggedIn(false)
-    }
+    }*/
     return (
         <div className="overlay">
             <div className="menu-card">
