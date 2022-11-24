@@ -36,6 +36,8 @@ function App() {
           <Route path="/Death3" exact element={<Death3 />} />
           <Route path="/Choice4" exact element={<Choice4 />} />
           <Route path="/Goal" exact element={<Goal />} />
+          <Route path="/Death4" exact element={<Death3 />} />
+          <Route path="/Choice4" exact element={<Choice4 />} />
           
           
           

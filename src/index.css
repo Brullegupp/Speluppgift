@@ -164,9 +164,10 @@ input[type=password] {
   padding-left: 100px;
   padding-right: 100px;
   border-radius: 10px;
-  position: absolute;
-  top: 35%;
-  left: 40%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -182,9 +183,10 @@ input[type=password] {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   top: 50%;
-  left: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 1164px) {
   .play-btn{
@@ -264,3 +266,97 @@ input[type=password] {
   margin: 0;
 }
 
+.death {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+
+.overlay-death1 {
+  background-image: url(../src/Data/Troll.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.overlay-death2 {
+  background-image: url(../src/Data/Fall.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.overlay-death3 {
+  background-image: url(../src/Data/Wolf.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.overlay-death4 {
+  background-image: url(../src/Data/Lumber.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.playagain-death {
+  font-family: "Consolas";
+  font-size: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: #8CB3BC;
+  color: rgb(0, 0, 0);
+}
+
+
+.exit-death {
+  color: rgb(0, 0, 0);
+  background-color: #8CB3BC;
+  font-family: "Consolas";
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
