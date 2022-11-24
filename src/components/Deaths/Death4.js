@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom"
 
-const Death3 = () => {
+const Death4 = () => {
 
     const navigate = useNavigate()
     return (
-        <div className="overlay-death3">
+        <div className="overlay-death4">
             <div className="menu-card-death">
                 <div className="death">
                     <h1 className="game-over">Game over</h1>
@@ -15,4 +15,4 @@ const Death3 = () => {
         </div>
     )
 }
-export default Death3;
+export default Death4;
