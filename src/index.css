@@ -376,3 +376,20 @@ input[type=password] {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.menu-card-death {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #76878B;
+  margin: auto;
+  opacity: 60%;
+  height: 394px;
+  width: 396px;
+  border-radius: 10px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
