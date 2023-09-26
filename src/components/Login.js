@@ -64,9 +64,9 @@ const Login = () => {
                         Password:
                         <input type="password" id="password"></input>
                     </label>
-                    <button className="login-btn" type="submit" onClick={handleSubmit}>Login</button>
+                    <button onClick={() => {navigate("/menu")}}>Register</button>
             </form>
-            <button className="register-btn2" onClick={() => {navigate("/Register")}}>Register</button>
+            
 
 
             <button className="exit-btn1" onClick={() => window.close()}>Exit</button>
@@ -77,7 +77,7 @@ const Login = () => {
 
 }
 
-//<button onClick={() => {navigate("/menu")}}>Register</button>
+
 
 
 export default Login;
